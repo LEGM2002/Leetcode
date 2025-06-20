@@ -1,4 +1,4 @@
-def addBinary(a, b):
+def add_binary(a, b):
     """
     :type a: str
     :type b: str
@@ -26,4 +26,4 @@ def addBinary(a, b):
         s.append("1")
     return "".join(reversed(s))
 
-print(addBinary("0", "0"))
+print(add_binary("0", "0"))
